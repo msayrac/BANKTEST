@@ -60,6 +60,7 @@
 			this.TxtSifre.Name = "TxtSifre";
 			this.TxtSifre.Size = new System.Drawing.Size(146, 30);
 			this.TxtSifre.TabIndex = 2;
+			this.TxtSifre.UseSystemPasswordChar = true;
 			// 
 			// MskHesapNo
 			// 
@@ -78,6 +79,7 @@
 			this.BtnGirisYap.TabIndex = 3;
 			this.BtnGirisYap.Text = "Giriş Yap";
 			this.BtnGirisYap.UseVisualStyleBackColor = true;
+			this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
 			// 
 			// LnkKayıtOl
 			// 

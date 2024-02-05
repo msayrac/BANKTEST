@@ -56,8 +56,16 @@ namespace BANKTEST
 		{
 			Random random = new Random();
 
-			int randomHesapNo = random.Next(0, 1000000);
-			MskHesapno.Text = randomHesapNo.ToString("D6");
+			int randomHesapNo = random.Next(100000, 1000000);
+			MskHesapno.Text = randomHesapNo.ToString();
+
+
+
+		}
+
+		private void Form3_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
