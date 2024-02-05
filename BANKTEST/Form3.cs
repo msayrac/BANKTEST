@@ -45,7 +45,6 @@ namespace BANKTEST
 
 			komut.ExecuteNonQuery();
 			connection.Close();
-
 			MessageBox.Show("Hesap Eklendi");
 			temizle();
 			
